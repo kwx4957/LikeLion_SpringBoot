@@ -27,37 +27,36 @@ public class AdvancedMain {
         number_list3.add("zz4");
 
 
-        printItems(hashSet);
+        printCollections(hashSet);
 
         hashSet.add("zz");
         hashSet.add("zz2");
         hashSet.add("zz3");
         hashSet.add("zz4");
 
-        printItems(number_list);
-        printItems(number_list2);
-        printItems(number_list3);
-        printItems(hashSet);
+        printCollections(number_list);
+        printCollections(number_list2);
+        printCollections(number_list3);
+        printCollections(hashSet);
+
+
 
     }
 
-    public static <T> void printItems(Iterable<T> iterable) {
-        Iterator<T> iterator = iterable.iterator();
+    public static void printCollections(Collection<?> collection) {
 
-        if(!iterator.hasNext()){
+        if (collection.isEmpty()) {
             System.out.println("No Elements");
             return;
         }
 
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("idx\t\titme\n");
+        System.out.println("idx\titem");
+        int i = 0;
 
-        for (int i = 0; iterator.hasNext(); i++) {
-            T item = iterator.next();
-            stringBuilder.append(
-                    String.format("%d\t\t%s\n", i, item));
+        for (Object s : collection) {
+            System.out.println(i + "\t" + s.toString());
+            i += 1;
         }
 
-        System.out.println(stringBuilder);
     }
 }

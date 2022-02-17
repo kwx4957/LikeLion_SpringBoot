@@ -27,33 +27,37 @@ public class AdvancedMissionMain {
         number_list3.add("zz4");
 
 
-        printCollections(hashSet);
+        printItems(hashSet);
 
-    hashSet.add("zz");
-    hashSet.add("zz2");
-    hashSet.add("zz3");
-    hashSet.add("zz4");
+        hashSet.add("zz");
+        hashSet.add("zz2");
+        hashSet.add("zz3");
+        hashSet.add("zz4");
 
-        printCollections(number_list);
-        printCollections(number_list2);
-        printCollections(number_list3);
-        printCollections(hashSet);
+        printItems(number_list);
+        printItems(number_list2);
+        printItems(number_list3);
+        printItems(hashSet);
 
     }
 
-    public static void printCollections(Collection collection){
+    public static <T> void printItems(Iterable<T> iterable) {
+        Iterator<T> iterator = iterable.iterator();
 
-        if (collection.isEmpty()){
+        if(!iterator.hasNext()){
             System.out.println("No Elements");
             return;
         }
 
-        System.out.println("idx\titem");
-        int i = 0;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("idx\t\titme\n");
 
-        for (Object s : collection) {
-            System.out.println(i +"\t"+s.toString());
-            i+=1;
+        for (int i = 0; iterator.hasNext(); i++) {
+            T item = iterator.next();
+            stringBuilder.append(
+                    String.format("%d\t\t%s\n", i, item));
         }
+
+        System.out.println(stringBuilder);
     }
 }
