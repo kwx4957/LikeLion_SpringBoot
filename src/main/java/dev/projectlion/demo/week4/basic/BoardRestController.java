@@ -37,13 +37,12 @@ public class BoardRestController {
 
     @PostMapping("/{board}")
     public  void createBoard(@PathVariable("board") String board, @RequestBody PostDto postDto){
-        logger.info(postDto.toString()+board);
         this.postService.createPost(board ,postDto);
     }
 
     @GetMapping("/{board}/{id}")
     public Optional<PostDto> readOne(@PathVariable("board") String board, @PathVariable("id") int id ){
-        logger.info(board + id );
+        logger.info(board + "\t"+ id );
         return this.postService.readOne(id);
     }
 
@@ -55,8 +54,8 @@ public class BoardRestController {
     }
 
     @DeleteMapping("/{id}")
-    public void deletePost(@PathVariable("id") int id, @RequestParam PostDto postDto){
-        logger.info("delete contents  "+ postDto);
+    public void deletePost(@PathVariable("id") int id, @RequestBody PostDto postDto){
+        logger.info("delete contents  ");
         this.postService.deletePost(id, postDto);
     }
 }

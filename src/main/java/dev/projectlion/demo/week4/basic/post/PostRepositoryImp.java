@@ -20,7 +20,6 @@ public class PostRepositoryImp implements PostRepository{
 
     @Override
     public Optional<PostDto> findById(int id) {
-        logger.info("글을 찾았어유" + id);
         return this.postDtoList.stream()
                 .filter(postDto -> postDto.getId() == id)
                 .findFirst();
@@ -54,15 +53,11 @@ public class PostRepositoryImp implements PostRepository{
     public void delete(int id, PostDto dto) {
         PostDto targetPost = this.postDtoList.stream()
                 .filter(postDto -> postDto.getId() == id)
-                .findFirst()
-                .orElseGet(() -> null);
-
-        if (targetPost == null){
-            throw new RuntimeException("글이 업서유");
-        }
+                .findAny()
+                .orElseThrow(() -> new RuntimeException("삭제할 글이 없엉쇼"));
 
         if (targetPost.getPassword().equals(dto.getPassword())){
-            this.postDtoList.remove(id);
+            this.postDtoList.remove(targetPost);
             logger.info("delete success");
         }
     }
