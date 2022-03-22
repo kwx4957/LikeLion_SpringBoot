@@ -1,4 +1,4 @@
-package dev.projectlion.demo.week6.basic.entity;
+package com.example.mission3.eneity.basic.entity;
 
 import lombok.Data;
 

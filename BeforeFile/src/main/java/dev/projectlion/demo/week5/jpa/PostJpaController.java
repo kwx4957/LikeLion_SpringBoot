@@ -5,6 +5,7 @@ import dev.projectlion.demo.week6.ValidTestDto;
 import dev.projectlion.demo.week6.aspect.LogExecutionTime;
 import dev.projectlion.demo.week6.aspect.LogArgument;
 import dev.projectlion.demo.week6.aspect.LogReturn;
+import dev.projectlion.demo.week7.exceptions.PostNotExistException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -57,5 +58,10 @@ public class PostJpaController {
     @PostMapping("testValid")
     public void testValid(@Valid @RequestBody ValidTestDto validTestDto){
         logger.warn(validTestDto.toString());
+    }
+
+    @GetMapping("test-excepntion")
+    public void throwException(){
+        throw new PostNotExistException();
     }
 }

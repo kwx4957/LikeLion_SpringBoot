@@ -1,4 +1,4 @@
-package dev.projectlion.demo.week6.basic.entity;
+package com.example.mission3.eneity.basic.entity;
 
 import lombok.Data;
 
@@ -14,7 +14,7 @@ public class BoardEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "boardName")
+    @Column(name = "board_name")
     private String name;
 
     @OneToMany(

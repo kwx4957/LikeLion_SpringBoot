@@ -1,6 +1,6 @@
-package dev.projectlion.demo.week6.basic.repository;
+package com.example.mission3.eneity.basic.repository;
 
-import dev.projectlion.demo.week6.basic.entity.UserEntity;
+import com.example.mission3.eneity.basic.entity.UserEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

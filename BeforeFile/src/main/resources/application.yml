@@ -25,4 +25,4 @@ custom:
       url: https://ncp.com/
 logging :
   level :
-    root : warn
+    dev.projectlion.demo.week7.handler : debug
