@@ -22,32 +22,32 @@ public class DemoConfig implements WebMvcConfigurer {
     public DemoConfig(HeaderLoggingInterceptor headerLoggingInterceptor){
         this.headerLoggingInterceptor = headerLoggingInterceptor;
     }
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(headerLoggingInterceptor)
-                .addPathPatterns("/post/**")
-                .excludePathPatterns("/except/**");
-    }
-
-    @Value("${custom.property.single}")
-    private String customProperty;
-
-    @Value("${custom.property.comlist}")
-    private List<String> customCommaList;
-
-    @Value("${custom.property.default:default-property}")
-    private String propertyDefault;
-
-    @PostConstruct
-    public void init(){
-        logger.info("cuostom property: {} " ,customProperty);
-
-        for (String commaListItem:customCommaList){
-            logger.info("comma list time {} ", commaListItem);
-        }
-
-        logger.info("cuostom property: {} " ,propertyDefault);
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(headerLoggingInterceptor)
+//                .addPathPatterns("/post/**")
+//                .excludePathPatterns("/except/**");
+//    }
+//
+//    @Value("${custom.property.single}")
+//    private String customProperty;
+//
+//    @Value("${custom.property.comlist}")
+//    private List<String> customCommaList;
+//
+//    @Value("${custom.property.default:default-property}")
+//    private String propertyDefault;
+//
+//    @PostConstruct
+//    public void init(){
+//        logger.info("cuostom property: {} " ,customProperty);
+//
+//        for (String commaListItem:customCommaList){
+//            logger.info("comma list time {} ", commaListItem);
+//        }
+//
+//        logger.info("cuostom property: {} " ,propertyDefault);
+//    }
     @Bean
     public Gson gson(){
         return new Gson();

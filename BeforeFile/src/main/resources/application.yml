@@ -11,19 +11,38 @@
 #  configuration:
 #    map-underscore-to-camel-case: true
 
+# 속성값 및 로깅 레벨 설정
+#custom:
+#  property:
+#    single: custom-property
+#    comlist: comma,sparated,list,to,value
+#    ncp:
+#      id: api-id
+#      key: api-key
+#      url: https://ncp.com/
+#logging :
+#  level :
+#    root : info
+#    dev.projectlion.demo.week7 : debug
 spring :
   profiles :
-    active : local
-
-custom:
-  property:
-    single: custom-property
-    comlist: comma,sparated,list,to,value
-    ncp:
-      id: api-id
-      key: api-key
-      url: https://ncp.com/
-logging :
-  level :
-    root : info
-    dev.projectlion.demo.week7 : debug
+    active : test
+management :
+  endpoints :
+    enabled-by-default : false
+    web:
+      exposure:
+        include : health,info,loggers,shutdown,prometheus
+  endpoint:
+    health:
+      show-details : always
+      show-components : always
+      enabled : true
+    info:
+      enabled : true
+    loggers:
+      enabled : true
+    shutdown:
+      enabled : true
+    prometheus :
+      enabled : true
