@@ -11,4 +11,8 @@ public class BoardDto {
         this.id = id;
         this.name = name;
     }
+
+    public BoardDto() {
+
+    }
 }

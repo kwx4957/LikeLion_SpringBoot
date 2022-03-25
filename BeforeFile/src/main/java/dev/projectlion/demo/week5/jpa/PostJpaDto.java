@@ -25,4 +25,8 @@ public class PostJpaDto {
         this.writer = writer;
         this.boardId = boardId;
     }
+
+    public PostJpaDto() {
+
+    }
 }
