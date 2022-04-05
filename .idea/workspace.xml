@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6718d451-7f36-47c1-8b8b-4d02a865512d" name="Changes" comment="미션5">
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.example.demo.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/community.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/spring-boot-logger.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission3/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission3/src/main/java/com/example/mission3/Mission3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission3/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission3/src/test/java/com/example/mission3/Mission3ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/media/20220222/093757_face_paint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/media/20220222/093807_KakaoTalk_20190516_215221677.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/media/20220222/093807_face_paint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/media/20220222/094254_face_paint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/media/face_paint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/CommunityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/AreaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/AreaDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/ShopDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/ShopPostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/ShopReviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/AreaEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/ShopEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/ShopPostEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/ShopReviewEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/AreaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/ShopPostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/ShopRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/ShopReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/service/AreaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/service/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/resources/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission4/src/test/java/dev/aquashdw/community/CommunityApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/bootJarMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/CommunityApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/AuthenticationFacade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/CommunityUserDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/LoginSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/config/PasswordEncoderConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/config/TestProfileConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/model/AutoLockUserDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/AreaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/ShopController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/AreaDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/CategoryDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/ShopDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/ShopPostDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/ShopReviewDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/AreaEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/CategoryEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/ShopEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/ShopPostEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/ShopReviewEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/AreaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/ShopPostRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/ShopRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/ShopReviewRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/service/AreaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/service/ShopService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/test/dev/aquashdw/community/CommunityApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/libs/mission5-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/libs/mission5-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/classes/dev.aquashdw.community.CommunityApplicationTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/packages/dev.aquashdw.community.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/templates/login-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/templates/signup-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/test-results/test/TEST-dev.aquashdw.community.CommunityApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/CommunityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/AuthenticationFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/CommunityUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/LoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/config/PasswordEncoderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/config/TestProfileConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/model/AutoLockUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/AreaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/AreaDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/ShopDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/ShopPostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/ShopReviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/AreaEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/ShopEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/ShopPostEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/ShopReviewEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/AreaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/ShopPostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/ShopRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/ShopReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/service/AreaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/service/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/templates/login-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/templates/signup-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mission5_basic/src/test/java/dev/aquashdw/community/CommunityApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/src/main/java/com/example/auth/Week8Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/src/test/java/com/example/auth/Week8ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$USER_HOME$/Downloads/Mission_4_Basic">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/BeforeFile">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mission3">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mission4">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mission5_basic">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/week8">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/week9">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/week9Consumer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/week9publisher">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/week9subscriber">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/3차미션">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/BeforeFile">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/mission4">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/week9">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/week9Consumer">
+          <activation />
+        </task>
+        <task path="$USER_HOME$/Downloads/Mission_4_Basic">
+          <activation />
+        </task>
+        <task path="$USER_HOME$/Downloads/Mission5">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/mission5_basic">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mission5" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mission5" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mission5" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="26YVVOc7QgR3HpHMWsqlFice3ch" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/2.PNG" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2272309" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\templates" />
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\static" />
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot" />
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\mission4" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot" />
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\templates" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.projectlion.demo.week5.jpa" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CommunityApplication (1)">
+    <configuration name="Mission_4_Basic [build] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mission5_basic" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="build" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Mission_4_Basic [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mission5_basic" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="build" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="mission5_basic [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mission5_basic" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="main" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunityApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mission5.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.aquashdw.community.CommunityApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="community.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.aquashdw.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.aquashdw.community.CommunityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.example.demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Mission4Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.projectlion.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mission3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="LikeLion_SpringBoot.mission3.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mission3.Mission3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mission4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mission4.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Mission4Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Week8Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="week8.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.auth.Week8Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Week8Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.auth.Week8Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Week9Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="week9.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.week9.Week9Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Week9ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="week9Consumer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.week9consumer.Week9ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Week9publisherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="week9publisher.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.week9publisher.Week9publisherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Week9subscriberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="week9subscriber.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.week9subscriber.Week9subscriberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Mission_4_Basic [build] (1)" />
+      <item itemvalue="Gradle.Mission_4_Basic [build]" />
+      <item itemvalue="Spring Boot.CommunityApplication (1)" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (1)" />
+      <item itemvalue="Spring Boot.Mission3Application" />
+      <item itemvalue="Spring Boot.Mission4Application" />
+      <item itemvalue="Spring Boot.Week8Application" />
+      <item itemvalue="Spring Boot.Week8Application (1)" />
+      <item itemvalue="Spring Boot.Week9Application" />
+      <item itemvalue="Spring Boot.Week9ConsumerApplication" />
+      <item itemvalue="Spring Boot.Week9publisherApplication" />
+      <item itemvalue="Spring Boot.Week9subscriberApplication" />
+      <item itemvalue="Spring Boot.CommunityApplication" />
+      <item itemvalue="Gradle.mission5_basic [build]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.mission5_basic [build]" />
+        <item itemvalue="Gradle.Mission_4_Basic [build]" />
+        <item itemvalue="Gradle.Mission_4_Basic [build] (1)" />
+        <item itemvalue="Spring Boot.CommunityApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6718d451-7f36-47c1-8b8b-4d02a865512d" name="Changes" comment="" />
+      <created>1647600532214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647600532214</updated>
+      <workItem from="1647600535265" duration="2000" />
+      <workItem from="1647600559914" duration="295000" />
+      <workItem from="1647600887775" duration="2047000" />
+      <workItem from="1647603752473" duration="1541000" />
+      <workItem from="1647605325915" duration="1365000" />
+      <workItem from="1647608315914" duration="93000" />
+      <workItem from="1647930496373" duration="278000" />
+      <workItem from="1647930891084" duration="7376000" />
+      <workItem from="1647972715495" duration="91000" />
+      <workItem from="1648181793241" duration="7496000" />
+      <workItem from="1648191663988" duration="1794000" />
+      <workItem from="1648193548774" duration="3643000" />
+      <workItem from="1648884494834" duration="5458000" />
+      <workItem from="1649114634026" duration="12307000" />
+      <workItem from="1649159747129" duration="9807000" />
+    </task>
+    <task id="LOCAL-00001" summary="7주차 1.Exception Handling">
+      <created>1647934313787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647934313787</updated>
+    </task>
+    <task id="LOCAL-00002" summary="7주차 1.filter 와 interceptors">
+      <created>1647936623624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647936623624</updated>
+    </task>
+    <task id="LOCAL-00003" summary="7주차 3.SpringBoot Tests">
+      <created>1648186218077</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648186218077</updated>
+    </task>
+    <task id="LOCAL-00004" summary="7주차 4.SpringBoot Actuator 와 prometheus">
+      <created>1648187887610</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648187887610</updated>
+    </task>
+    <task id="LOCAL-00005" summary="8주차 3.Login">
+      <created>1649138484589</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649138484589</updated>
+    </task>
+    <task id="LOCAL-00006" summary="8주차 4.OAuth2 and JWT">
+      <created>1649152109678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649152109678</updated>
+    </task>
+    <task id="LOCAL-00007" summary="9주차 1. RabbitMQ">
+      <created>1649157139427</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649157139427</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.jupiter:junit-jupiter-params" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.xml.bind:jakarta.xml.bind-api" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:jul-to-slf4j" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-validation" />
+    <option featureType="dependencySupport" implementationName="java:org.hamcrest:hamcrest" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.platform:junit-platform-engine" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-data-jpa" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:net.bytebuddy:byte-buddy-agent" />
+    <option featureType="dependencySupport" implementationName="java:com.zaxxer:HikariCP" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-aspects" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss:jandex" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf-spring5" />
+    <option featureType="dependencySupport" implementationName="java:net.minidev:accessors-smart" />
+    <option featureType="dependencySupport" implementationName="java:com.h2database:h2" />
+    <option featureType="dependencySupport" implementationName="java:com.google.code.gson:gson" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-test" />
+    <option featureType="dependencySupport" implementationName="java:org.aspectj:aspectjweaver" />
+    <option featureType="dependencySupport" implementationName="java:com.jayway.jsonpath:json-path" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-beans" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-test" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.tomcat.embed:tomcat-embed-core" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml:classmate" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.datatype:jackson-datatype-jsr310" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.common:hibernate-commons-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jaxb:jaxb-runtime" />
+    <option featureType="dependencySupport" implementationName="java:org.skyscreamer:jsonassert" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.tomcat.embed:tomcat-embed-websocket" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-jpa" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:ch.qos.logback:logback-classic" />
+    <option featureType="dependencySupport" implementationName="java:org.mockito:mockito-junit-jupiter" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.activation:jakarta.activation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jaxb:txw2" />
+    <option featureType="dependencySupport" implementationName="java:org.opentest4j:opentest4j" />
+    <option featureType="dependencySupport" implementationName="java:org.objenesis:objenesis" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.jupiter:junit-jupiter" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-tx" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.jupiter:junit-jupiter-engine" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-jcl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-web" />
+    <option featureType="dependencySupport" implementationName="java:org.attoparser:attoparser" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-aop" />
+    <option featureType="dependencySupport" implementationName="java:org.unbescape:unbescape" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-tomcat" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-annotations" />
+    <option featureType="dependencySupport" implementationName="java:ch.qos.logback:logback-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-test" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-core" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-databind" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-to-slf4j" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.platform:junit-platform-commons" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.annotation:jakarta.annotation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss.logging:jboss-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-orm" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-api" />
+    <option featureType="dependencySupport" implementationName="java:org.ow2.asm:asm" />
+    <option featureType="dependencySupport" implementationName="java:org.thymeleaf.extras:thymeleaf-extras-java8time" />
+    <option featureType="dependencySupport" implementationName="java:org.yaml:snakeyaml" />
+    <option featureType="dependencySupport" implementationName="java:antlr:antlr" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-autoconfigure" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-context" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-test-autoconfigure" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-json" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-expression" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.istack:istack-commons-runtime" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-aop" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.datatype:jackson-datatype-jdk8" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.jupiter:junit-jupiter-api" />
+    <option featureType="dependencySupport" implementationName="java:net.minidev:json-smart" />
+    <option featureType="dependencySupport" implementationName="java:mysql:mysql-connector-java" />
+    <option featureType="dependencySupport" implementationName="java:org.assertj:assertj-core" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.module:jackson-module-parameter-names" />
+    <option featureType="dependencySupport" implementationName="java:com.vaadin.external.google:android-json" />
+    <option featureType="dependencySupport" implementationName="java:org.apiguardian:apiguardian-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-web" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-jdbc" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.tomcat.embed:tomcat-embed-el" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-jdbc" />
+    <option featureType="dependencySupport" implementationName="java:org.mockito:mockito-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.transaction:jakarta.transaction-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-thymeleaf" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.activation:jakarta.activation" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-api" />
+    <option featureType="dependencySupport" implementationName="java:org.xmlunit:xmlunit-core" />
+    <option featureType="dependencySupport" implementationName="java:net.bytebuddy:byte-buddy" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="7주차 1.Exception Handling" />
+    <MESSAGE value="7주차 1.filter 와 interceptors" />
+    <MESSAGE value="7주차 3.SpringBoot Tests" />
+    <MESSAGE value="7주차 4.SpringBoot Actuator 와 prometheus" />
+    <MESSAGE value="8주차 3.Login" />
+    <MESSAGE value="8주차 4.OAuth2 and JWT" />
+    <MESSAGE value="9주차 1. RabbitMQ" />
+    <MESSAGE value="미션5" />
+    <option name="LAST_COMMIT_MESSAGE" value="미션5" />
+  </component>
+</project>

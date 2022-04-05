@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/3차미션" />
+    <file type="web" url="file://$PROJECT_DIR$/BeforeFile" />
+    <file type="web" url="file://$PROJECT_DIR$/mission3" />
+    <file type="web" url="file://$PROJECT_DIR$/mission4" />
+    <file type="web" url="file://$PROJECT_DIR$/week8" />
+    <file type="web" url="file://$PROJECT_DIR$/week9" />
+    <file type="web" url="file://$PROJECT_DIR$/week9Consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/week9publisher" />
+    <file type="web" url="file://$PROJECT_DIR$/week9subscriber" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

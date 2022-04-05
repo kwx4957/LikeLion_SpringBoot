@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        xmlns:th="http://www.thymeleaf.org"
+        xmlns:sec="http://www.w3.org/1999/xhtml"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Home</title>
+</head>
+<body>
+    <div sec:authorize="isAnonymous()">
+        <h2>Hello! Please, sign in!</h2>
+        <button onclick="location.href = '/user/login'">로그인</button>
+        <button onclick="location.href = '/user/signup'">회원가입</button>
+    </div>
+    <div sec:authorize="isAuthenticated()">
+        <h3>
+            Welcome back, <span sec:authentication="name"></span>!
+        </h3>
+        <form th:action="@{/user/logout}" method="post">
+            <input type="submit" th:value="로그아웃">
+        </form>
+        <button onclick="getLocation()">현재 내위치 </button>
+        <div id="nearPlace"></div>
+        <script>
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else {
+                    alert("Geolocation is not supported by this browser.");
+                }
+            }
+
+            function showPosition(position) {
+                nearArea(position)
+                alert(`Latitude: ${position.coords.latitude}, Longitude: ${position.coords.longitude}`);
+            }
+
+            async function nearArea(position) {
+                await fetch(`/area/get-location-info?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}`)
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(data => {
+                    const regionMajor = document.createElement("div");
+                    const regionMinor = document.createElement("div");
+                    const regionPatch = document.createElement("div");
+                    const latitude = document.createElement("div");
+                    const longitude = document.createElement("div");
+
+                    regionMajor.textContent = data.regionMajor;
+                    regionMinor.textContent = data.regionMinor;
+                    regionPatch.textContent = data.regionPatch;
+                    latitude.textContent = data.latitude;
+                    longitude.textContent = data.longitude;
+
+                    const nearPlace = document.getElementById("nearPlace");
+                    nearPlace.append(regionMajor.textContent+" "
+                        +regionMinor.textContent+" "
+                        +regionPatch.textContent+" "
+                        +latitude.textContent+" "
+                        +longitude.textContent);
+                });
+            }
+        </script>
+    </div>
+
+</body>
+</html>
