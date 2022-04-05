@@ -1,6 +1,7 @@
 package com.example.auth.config;
 
 import com.example.auth.infra.CustomUserDetailService;
+import com.example.auth.infra.NaverOAuth2Service;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -15,10 +16,11 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     private final UserDetailsService userDetailsService;
+    private final NaverOAuth2Service naverOAuth2Service;
 
-
-    public WebSecurityConfig(CustomUserDetailService userDetailsService) {
+    public WebSecurityConfig(UserDetailsService userDetailsService, NaverOAuth2Service naverOAuth2Service) {
         this.userDetailsService = userDetailsService;
+        this.naverOAuth2Service = naverOAuth2Service;
     }
 
     @Override
@@ -37,23 +39,29 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .authorizeRequests()
-                .antMatchers("/home/**","/user/signup/**")
-                .anonymous()
-                .anyRequest()
-                .authenticated()
-                  .and()
-                .formLogin()
-                .loginPage("/user/login")
-                .defaultSuccessUrl("/home")
-                .permitAll()
+                    .authorizeRequests()
+                    .antMatchers("/home/**","/user/signup/**")
+                    .anonymous()
+                    .anyRequest()
+                    .authenticated()
                 .and()
-                .logout()
-                .logoutUrl("/user/logout")
-                .logoutSuccessUrl("/home")
-                .deleteCookies("JSEESIONID")
-                .invalidateHttpSession(true)
-                .permitAll();
+                    .formLogin()
+                    .loginPage("/user/login")
+                    .defaultSuccessUrl("/home")
+                    .permitAll()
+                .and()
+                    .oauth2Login()
+                    .userInfoEndpoint()
+                    .userService(this.naverOAuth2Service)
+                    .and()
+                    .defaultSuccessUrl("/home")
+                .and()
+                    .logout()
+                    .logoutUrl("/user/logout")
+                    .logoutSuccessUrl("/home")
+                    .deleteCookies("JSEESIONID")
+                    .invalidateHttpSession(true)
+                    .permitAll();
 
     }
 

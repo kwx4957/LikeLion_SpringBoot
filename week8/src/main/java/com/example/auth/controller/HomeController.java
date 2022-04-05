@@ -27,7 +27,7 @@ public class HomeController {
 //            logger.info("user{}", principal.getName());
 //            logger.info("user{}", authentication.getName());
 //            logger.info("new user{}",
-//                    SecurityContextHolder.getContext().getAuthentication().getName());
+//                  SecurityContextHolder.getContext().getAuthentication().getName());
             logger.info("new user{}",authFacade.getUserName());
         } catch (NullPointerException e){
             logger.info("no user loogerd in");
