@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$USER_HOME$/Downloads/demo" />
     <file type="web" url="file://$PROJECT_DIR$/3차미션" />
     <file type="web" url="file://$PROJECT_DIR$/BeforeFile" />
     <file type="web" url="file://$PROJECT_DIR$/mission3" />

@@ -1,5 +1,6 @@
 package com.example.week9.config;
 
+import com.google.gson.Gson;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.Queue;
@@ -14,5 +15,10 @@ public class ProducerConfig {
     @Bean
     public org.springframework.amqp.core.Queue queue(){
         return new Queue("boot.amqp.worker-queue",true,false,true);
+    }
+
+    @Bean
+    public Gson gson(){
+        return new Gson();
     }
 }

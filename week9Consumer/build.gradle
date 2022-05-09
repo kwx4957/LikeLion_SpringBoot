@@ -24,6 +24,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.h2database:h2'
+    implementation ('org.springframework.boot:spring-boot-starter-data-redis'){
+        exclude group: 'io.lettuce', module: 'lettuce-core'
+    }
+    implementation 'redis.clients:jedis'
+    implementation 'com.google.code.gson:gson:2.9.0'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.amqp:spring-rabbit-test'

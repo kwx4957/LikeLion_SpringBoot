@@ -4,214 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6718d451-7f36-47c1-8b8b-4d02a865512d" name="Changes" comment="미션5">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.example.demo.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/community.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/spring-boot-logger.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission3/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission3/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission3/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission3/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission3/src/main/java/com/example/mission3/Mission3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission3/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission3/src/test/java/com/example/mission3/Mission3ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/media/20220222/093757_face_paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/media/20220222/093807_KakaoTalk_20190516_215221677.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/media/20220222/093807_face_paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/media/20220222/094254_face_paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/media/face_paint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/CommunityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/AreaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/ShopController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/AreaDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/CategoryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/ShopDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/ShopPostDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/ShopReviewDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/controller/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/AreaEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/CategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/ShopEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/ShopPostEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/ShopReviewEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/AreaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/ShopPostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/ShopRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/ShopReviewRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/service/AreaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/service/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/java/dev/aquashdw/community/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/resources/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission4/src/test/java/dev/aquashdw/community/CommunityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/7.4/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/bootJarMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/CommunityApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/AuthenticationFacade.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/CommunityUserDetailsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/LoginSuccessHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/config/PasswordEncoderConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/config/TestProfileConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/config/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/auth/model/AutoLockUserDetails.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/AreaController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/HomeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/ShopController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/AreaDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/CategoryDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/ShopDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/ShopPostDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/ShopReviewDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/controller/dto/UserDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/AreaEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/CategoryEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/ShopEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/ShopPostEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/ShopReviewEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/entity/UserEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/AreaRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/CategoryRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/ShopPostRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/ShopRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/ShopReviewRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/service/AreaService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/service/ShopService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/main/dev/aquashdw/community/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/classes/java/test/dev/aquashdw/community/CommunityApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/libs/mission5-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/libs/mission5-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/classes/dev.aquashdw.community.CommunityApplicationTests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/reports/tests/test/packages/dev.aquashdw.community.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/templates/login-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/resources/main/templates/signup-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/test-results/test/TEST-dev.aquashdw.community.CommunityApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/CommunityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/AuthenticationFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/CommunityUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/LoginSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/config/PasswordEncoderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/config/TestProfileConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/auth/model/AutoLockUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/AreaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/ShopController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/AreaDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/CategoryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/ShopDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/ShopPostDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/ShopReviewDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/controller/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/AreaEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/CategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/ShopEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/ShopPostEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/ShopReviewEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/AreaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/ShopPostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/ShopRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/ShopReviewRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/service/AreaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/service/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/java/dev/aquashdw/community/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/templates/login-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/main/resources/templates/signup-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mission5_basic/src/test/java/dev/aquashdw/community/CommunityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/src/main/java/com/example/auth/Week8Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week8/src/test/java/com/example/auth/Week8ApplicationTests.java" afterDir="false" />
+    <list default="true" id="6718d451-7f36-47c1-8b8b-4d02a865512d" name="Changes" comment="readme 수정">
+      <change afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/model/JobProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/model/JobRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/repository/RedisRepopsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/service/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/model/JobProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/model/JobRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/repository/RedisRepopsitory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/week9/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/config/ProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/config/ProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/controller/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/controller/ProducerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/service/ProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/service/ProducerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week9/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9Consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/week9Consumer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/config/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/config/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/service/ConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9Consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week9Consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +35,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$USER_HOME$/Downloads/Mission_4_Basic">
+      <ProjectState />
+    </projectState>
+    <projectState path="$USER_HOME$/Downloads/demo">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$">
@@ -371,15 +189,16 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/2.PNG" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/demo" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2272309" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week9Consumer\src\main\java\com\example\week9consumer\model" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\templates" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\static" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot" />
@@ -389,11 +208,15 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\mission5_basic" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\templates" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="dev.projectlion.demo.week5.jpa" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.week9consumer.repository" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -403,7 +226,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommunityApplication (1)">
+  <component name="RunManager" selected="Spring Boot.Week9Application">
     <configuration name="Mission_4_Basic [build] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -505,6 +328,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Downloads.demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.websocket.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="dev.projectlion.demo.DemoApplication" />
@@ -571,6 +401,7 @@
     <list>
       <item itemvalue="Gradle.Mission_4_Basic [build] (1)" />
       <item itemvalue="Gradle.Mission_4_Basic [build]" />
+      <item itemvalue="Gradle.mission5_basic [build]" />
       <item itemvalue="Spring Boot.CommunityApplication (1)" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
@@ -583,7 +414,7 @@
       <item itemvalue="Spring Boot.Week9publisherApplication" />
       <item itemvalue="Spring Boot.Week9subscriberApplication" />
       <item itemvalue="Spring Boot.CommunityApplication" />
-      <item itemvalue="Gradle.mission5_basic [build]" />
+      <item itemvalue="Spring Boot.DemoApplication (2)" />
     </list>
     <recent_temporary>
       <list>
@@ -616,7 +447,11 @@
       <workItem from="1648193548774" duration="3643000" />
       <workItem from="1648884494834" duration="5458000" />
       <workItem from="1649114634026" duration="12307000" />
-      <workItem from="1649159747129" duration="9807000" />
+      <workItem from="1649159747129" duration="9961000" />
+      <workItem from="1650633648214" duration="638000" />
+      <workItem from="1651191302816" duration="1611000" />
+      <workItem from="1652018848758" duration="193000" />
+      <workItem from="1652102450091" duration="9234000" />
     </task>
     <task id="LOCAL-00001" summary="7주차 1.Exception Handling">
       <created>1647934313787</created>
@@ -667,7 +502,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649157139427</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="미션5">
+      <created>1649169670411</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649169670411</updated>
+    </task>
+    <task id="LOCAL-00009" summary="readme 수정">
+      <created>1649169751408</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649169751408</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,6 +641,7 @@
     <MESSAGE value="8주차 4.OAuth2 and JWT" />
     <MESSAGE value="9주차 1. RabbitMQ" />
     <MESSAGE value="미션5" />
-    <option name="LAST_COMMIT_MESSAGE" value="미션5" />
+    <MESSAGE value="readme 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme 수정" />
   </component>
 </project>
