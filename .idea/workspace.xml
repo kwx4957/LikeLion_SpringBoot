@@ -4,29 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6718d451-7f36-47c1-8b8b-4d02a865512d" name="Changes" comment="readme 수정">
-      <change afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/model/JobProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/model/JobRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/repository/RedisRepopsitory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/model/JobProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/model/JobRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/repository/RedisRepopsitory.java" afterDir="false" />
+    <list default="true" id="6718d451-7f36-47c1-8b8b-4d02a865512d" name="Changes" comment="9. Redis">
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/controller/WebSocketMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/model/CharMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/model/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/repository/ChatRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/resources/static/chat-room.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/resources/static/js/stomp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week9/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/week9/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/config/ProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/config/ProducerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/controller/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/controller/ProducerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/service/ProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/week9/src/main/java/com/example/week9/service/ProducerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week9/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week9/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week9Consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/week9Consumer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/config/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/config/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/week9Consumer/src/main/java/com/example/week9consumer/service/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week9Consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week9Consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +44,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/mission5_basic">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/websocket">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/week8">
@@ -189,7 +183,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/websocket/src/main/resources/static" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -198,18 +192,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\websocket\src\main\resources\static" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week9Consumer\src\main\java\com\example\week9consumer\model" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\templates" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\static" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot" />
-      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\mission4" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\mission5_basic" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot" />
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\mission5_basic" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\templates" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -226,7 +220,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Week9Application">
+  <component name="RunManager" selected="Spring Boot.WebsocketApplication">
     <configuration name="Mission_4_Basic [build] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -356,6 +350,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="websocket.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.websocket.WebsocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Week8Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="week8.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.auth.Week8Application" />
@@ -415,6 +416,7 @@
       <item itemvalue="Spring Boot.Week9subscriberApplication" />
       <item itemvalue="Spring Boot.CommunityApplication" />
       <item itemvalue="Spring Boot.DemoApplication (2)" />
+      <item itemvalue="Spring Boot.WebsocketApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -451,7 +453,7 @@
       <workItem from="1650633648214" duration="638000" />
       <workItem from="1651191302816" duration="1611000" />
       <workItem from="1652018848758" duration="193000" />
-      <workItem from="1652102450091" duration="9234000" />
+      <workItem from="1652102450091" duration="11705000" />
     </task>
     <task id="LOCAL-00001" summary="7주차 1.Exception Handling">
       <created>1647934313787</created>
@@ -516,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649169751408</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="9. Redis">
+      <created>1652112542747</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652112542747</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,6 +651,7 @@
     <MESSAGE value="9주차 1. RabbitMQ" />
     <MESSAGE value="미션5" />
     <MESSAGE value="readme 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme 수정" />
+    <MESSAGE value="9. Redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. Redis" />
   </component>
 </project>
