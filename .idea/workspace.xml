@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6718d451-7f36-47c1-8b8b-4d02a865512d" name="Changes" comment="9. WebSocket">
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/controller/ActuatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/controller/CarApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/controller/NcpApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/model/ActuatorLoggerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/model/CarDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/model/GeolocatoinData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/model/NcpGeolocationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/service/ActuatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/service/CarApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/service/NcpApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webclient/src/main/resources/application-dummy.yml" afterDir="false" />
+    <list default="true" id="6718d451-7f36-47c1-8b8b-4d02a865512d" name="Changes" comment="9. WebClient">
+      <change afterPath="$PROJECT_DIR$/week10gateway/src/main/java/com/example/week10gateway/filter/LoggingGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10gateway/src/main/java/com/example/week10gateway/filter/PostLoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10gateway/src/main/java/com/example/week10gateway/filter/PreLoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10gateway/src/main/java/com/example/week10gateway/routes/RoutingConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -53,6 +45,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/websocket">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/week10gateway">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/week8">
@@ -190,7 +185,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/websocket/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week10gateway/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -199,11 +194,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week10gateway\src\main\resources" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\websocket\src\main\resources\static" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week9Consumer\src\main\java\com\example\week9consumer\model" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\templates" />
       <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot\week8\src\main\resources\static" />
-      <recent name="C:\Users\kdy49\IdeaProjects\LikeLion_SpringBoot" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -227,7 +222,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebclientApplication">
+  <component name="RunManager" selected="Spring Boot.Week10gatewayApplication">
     <configuration name="Mission_4_Basic [build] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -371,6 +366,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Week10gatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="week10gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.week10gateway.Week10gatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Week8Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="week8.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.auth.Week8Application" />
@@ -430,8 +432,9 @@
       <item itemvalue="Spring Boot.Week9subscriberApplication" />
       <item itemvalue="Spring Boot.DemoApplication (2)" />
       <item itemvalue="Spring Boot.WebsocketApplication" />
-      <item itemvalue="Spring Boot.CommunityApplication" />
       <item itemvalue="Spring Boot.WebclientApplication" />
+      <item itemvalue="Spring Boot.CommunityApplication" />
+      <item itemvalue="Spring Boot.Week10gatewayApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -469,7 +472,8 @@
       <workItem from="1651191302816" duration="1611000" />
       <workItem from="1652018848758" duration="193000" />
       <workItem from="1652102450091" duration="11897000" />
-      <workItem from="1652143126463" duration="5197000" />
+      <workItem from="1652143126463" duration="6257000" />
+      <workItem from="1652173915237" duration="5715000" />
     </task>
     <task id="LOCAL-00001" summary="7주차 1.Exception Handling">
       <created>1647934313787</created>
@@ -548,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652115137410</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="9. WebClient">
+      <created>1652168731344</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1652168731344</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,6 +687,7 @@
     <MESSAGE value="readme 수정" />
     <MESSAGE value="9. Redis" />
     <MESSAGE value="9. WebSocket" />
-    <option name="LAST_COMMIT_MESSAGE" value="9. WebSocket" />
+    <MESSAGE value="9. WebClient" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. WebClient" />
   </component>
 </project>
