@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6718d451-7f36-47c1-8b8b-4d02a865512d" name="Changes" comment="9. Redis">
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/controller/WebSocketMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/model/CharMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/model/ChatRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/com/example/websocket/repository/ChatRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/resources/static/chat-room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/resources/static/js/stomp.js" afterDir="false" />
+    <list default="true" id="6718d451-7f36-47c1-8b8b-4d02a865512d" name="Changes" comment="9. WebSocket">
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/controller/ActuatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/controller/CarApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/controller/NcpApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/model/ActuatorLoggerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/model/CarDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/model/GeolocatoinData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/model/NcpGeolocationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/service/ActuatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/service/CarApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/java/webclient/webclient/service/NcpApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webclient/src/main/resources/application-dummy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -44,6 +47,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/mission5_basic">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/webclient">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/websocket">
@@ -178,6 +184,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -220,7 +227,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebsocketApplication">
+  <component name="RunManager" selected="Spring Boot.WebclientApplication">
     <configuration name="Mission_4_Basic [build] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -350,6 +357,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebclientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="webclient.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="webclient.webclient.WebclientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="websocket.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.websocket.WebsocketApplication" />
@@ -414,9 +428,10 @@
       <item itemvalue="Spring Boot.Week9ConsumerApplication" />
       <item itemvalue="Spring Boot.Week9publisherApplication" />
       <item itemvalue="Spring Boot.Week9subscriberApplication" />
-      <item itemvalue="Spring Boot.CommunityApplication" />
       <item itemvalue="Spring Boot.DemoApplication (2)" />
       <item itemvalue="Spring Boot.WebsocketApplication" />
+      <item itemvalue="Spring Boot.CommunityApplication" />
+      <item itemvalue="Spring Boot.WebclientApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -453,7 +468,8 @@
       <workItem from="1650633648214" duration="638000" />
       <workItem from="1651191302816" duration="1611000" />
       <workItem from="1652018848758" duration="193000" />
-      <workItem from="1652102450091" duration="11705000" />
+      <workItem from="1652102450091" duration="11897000" />
+      <workItem from="1652143126463" duration="5197000" />
     </task>
     <task id="LOCAL-00001" summary="7주차 1.Exception Handling">
       <created>1647934313787</created>
@@ -525,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652112542747</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="9. WebSocket">
+      <created>1652115137410</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652115137410</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,6 +675,7 @@
     <MESSAGE value="미션5" />
     <MESSAGE value="readme 수정" />
     <MESSAGE value="9. Redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="9. Redis" />
+    <MESSAGE value="9. WebSocket" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. WebSocket" />
   </component>
 </project>
